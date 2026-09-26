@@ -1,10 +1,11 @@
 export interface Movie{
-    movieID :number;
+    movieId :number;
     movieName:string;
     genre:string;
     language:string;
     rating:number;
-    releaseDate:number;
+    releaseDate:String;
     description:string;
     imageUrl:string;
 }
+
