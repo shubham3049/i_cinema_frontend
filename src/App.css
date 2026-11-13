@@ -16,6 +16,11 @@
     outline-offset: 2px;
   }
 }
+.logo {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
 
 .hero {
   position: relative;
@@ -182,3 +187,4 @@
     border-right-color: var(--border);
   }
 }
+
